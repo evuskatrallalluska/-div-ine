@@ -1,0 +1,24 @@
+@import url('colors.css');
+
+@media (max-width:1024px) {
+    
+    .parallelogram1-container-inverted1{
+        clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);
+    }
+
+    .parallelogram1-inverted1{
+        clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);
+    }
+
+    .parallelogram1-container{
+        clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);
+    }
+
+    .parallelogram1{
+        clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);
+    }
+
+    .custom-container-fluid{
+        display: flow;
+    }
+}

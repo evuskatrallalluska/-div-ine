@@ -1,0 +1,225 @@
+/* INIZIO PULSANTE NAVBAR */
+.button {
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    margin-right: 15%;
+}
+
+.button .bottom {
+    position: absolute;
+    left: 7px;
+    top: 7px;
+    width: 100%;
+    height: 100%;
+    display: block;
+    -webkit-transition: all .15s ease-out;
+    -moz-transition: all .15s ease-out;
+    -o-transition: all .15s ease-out;
+    transition: all .15s ease-out;
+}
+
+.button .top {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto; /* Cambiato per adattarsi meglio */
+    padding: 16px 34px 15px 34px; /* Modificato il padding per rendere il bottone più basso */
+}
+
+.button .top .label {
+    font-weight: 600;
+    line-height: 110%;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: nowrap;
+    -webkit-transition: all .15s ease-out;
+    -moz-transition: all .15s ease-out;
+    -o-transition: all .15s ease-out;
+    transition: all .15s ease-out;
+}
+
+.button:hover .bottom {
+    left: 0;
+    top: 0;
+    background-color: #FFF0E3;
+}
+
+.button-border {
+    position: absolute;
+    -webkit-transition: all .25s ease-out;
+    -moz-transition: all .25s ease-out;
+    -o-transition: all .25s ease-out;
+    transition: all .25s ease-out;
+}
+
+.button:hover .top .button-border-left,
+.button:hover .top .button-border-right {
+    height: calc(100% + 2px);
+}
+
+.button:hover .top .button-border-top,
+.button:hover .top .button-border-bottom {
+    width: calc(100% + 2px);
+}
+
+.button-border-left {
+    left: -2px;
+    bottom: -2px;
+    width: 2px;
+    height: 0;
+}
+
+.button-border-top {
+    left: -2px;
+    top: -2px;
+    width: 0;
+    height: 2px;
+}
+
+.button-border-right {
+    right: -2px;
+    top: -2px;
+    width: 2px;
+    height: 0;
+}
+
+.button-border-bottom {
+    right: -2px;
+    bottom: -2px;
+    width: 0;
+    height: 2px;
+}
+
+.button-nav-color{
+    background-color: #000000;
+}
+
+.button-nav-top-color{
+    border: 2px solid #000000;
+    background-color: #10B9C3;
+}
+
+.button-nav-label {
+    color: #ffff;
+}
+
+.button:hover .button-nav-top-color .button-nav-label {
+    color: #ffff;
+}
+
+.button-border-nav-color{
+    background-color: #10B9C3;
+}
+/* FINE PULSANTE NAVBAR */
+
+/* INIZIO PULSANTE ABOUT*/
+.button-about-color{
+    background-color: #000000;
+}
+
+.button-about-top-color{
+    border: 2px solid #000000;
+    background-color: #FF8225;
+}
+
+.button:hover .button-about-top-color .button-about-label {
+    color: #ffff;
+}
+
+.button-about-label {
+    color: #ffff;
+}
+
+.button-border-about-color{
+    background-color: #FF8225;
+}
+/* FINE PULSANTE ABOUT */
+
+/* INIZIO PULSANTE ABSOURD*/
+.button-absourd-color{
+    background-color: #000000;
+}
+
+.button-absourd-top-color{
+    border: 2px solid #000000;
+    background-color: #10B9C3;
+}
+
+.button:hover .button-absourd-top-color .button-absourd-label {
+    color: #ffff;
+}
+
+.button-absourd-label {
+    color: #ffff;
+}
+
+.button-border-absourd-color{
+    background-color: #10B9C3;
+}
+/* FINE PULSANTE absourd */
+
+.button-products1-bath1-color{
+    background-color: #000000;
+}
+
+.button-products1-bath1-top-color{
+    border: 2px solid #000000;
+    background-color: #BF9CD3;
+}
+
+.button:hover .button-products1-bath1-top-color .button-products1-bath1-label {
+    color: #ffff;
+}
+
+.button-products1-bath1-label {
+    color: #ffff;
+}
+
+.button-border-products1-bath1-color{
+    background-color: #BF9CD3;
+}
+
+.button-products1-living1-color{
+    background-color: #000000;
+}
+
+.button-products1-living1-top-color{
+    border: 2px solid #000000;
+    background-color: #10B9C3;
+}
+
+.button:hover .button-products1-living1-top-color .button-products1-living1-label {
+    color: #ffff;
+}
+
+.button-products1-living1-label {
+    color: #ffff;
+}
+
+.button-border-products1-living1-color{
+    background-color: #10B9C3;
+}
+
+.button-products1-kitchen1-color{
+    background-color: #000000;
+}
+
+.button-products1-kitchen1-top-color{
+    border: 2px solid #000000;
+    background-color: #FF8225;
+}
+
+.button:hover .button-products1-kitchen1-top-color .button-products1-kitchen1-label {
+    color: #ffff;
+}
+
+.button-products1-kitchen1-label {
+    color: #ffff;
+}
+
+.button-border-products1-kitchen1-color{
+    background-color: #FF8225;
+}

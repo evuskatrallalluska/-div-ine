@@ -1,0 +1,84 @@
+@import url('colors.css');
+
+.alignment1-about {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 60%;
+}
+
+.number {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.word {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.separator {
+  height: 2px;
+  background-color: #ddd;
+  width: 100%;
+}
+
+.about-title-background {
+  position: relative;
+  width: auto;
+  height: 100%;
+  background-image: url('../img/about.png');
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media (max-width: 1024px) {
+  .custom-div {
+    min-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    clip-path: polygon(0 0, 100% 8%, 100% 92%, 0% 100%);
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    background-color: var(--violet-color);
+    margin-top: 200px;
+    margin-bottom: 200px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+
+  .rocket1-phone {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1025px) {
+  .custom-div {
+    min-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    clip-path: polygon(0 0, 100% 8%, 100% 92%, 0% 100%);
+    padding-left: 280px !important;
+    padding-right: 280px !important;
+    background-color: var(--violet-color);
+    margin-top: 200px;
+    margin-bottom: 200px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+}
+
+.number {
+  color: white;
+  text-shadow:
+    -1px -1px 0 black,
+    /* Ombra sopra-left1 */
+    1px -1px 0 black,
+    /* Ombra sopra-right1 */
+    -1px 1px 0 black,
+    /* Ombra down1-left1 */
+    1px 1px 0 black;
+}
