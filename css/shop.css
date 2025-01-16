@@ -1,0 +1,102 @@
+@import url('colors.css');
+
+.shop-title-background {
+  position: relative;
+  width: auto;
+  height: 100%;
+  background-image: url('../img/Group\ 1349.png');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.text-trapezoid1-absourd {
+  text-align: left;
+}
+
+@media (min-width: 1025px) {
+
+  .margin-button-shop{
+    padding-right:150px; 
+    margin-top: 50px;
+  }
+
+  .responsive-height{
+    height: 300px;
+  }
+
+  .text-polygons-custom{
+    padding-top: 3rem;
+  }
+}
+
+/* Stile specifico per telefoni e tablet */
+@media (max-width: 1024px) {
+  .shop-title-background {
+    position: relative;
+    width: auto;
+    background-image: url('../img/Group\ 1349.png');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .unbounded-about {
+    text-align: end;
+  }
+
+  .align-mobile {
+    justify-content: end;
+  }
+
+  .text-trapezoid1-absourd {
+    text-align: left;
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+
+  .trapezoid1-about-shadow {
+    margin-top: 0px;
+  }
+
+  .custom-height {
+    height: 700px;
+    clip-path: none;
+  }
+
+  .padding-left-3 {
+    padding-left: 3rem;
+  }
+
+  .margin-button-shop{
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  
+  .responsive-height{
+    height: 100px;
+  }
+
+  .parallelogram1-container-inverted1{
+    clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);
+}
+
+.parallelogram1-inverted1{
+    clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);
+}
+
+.parallelogram1-container{
+    clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);
+}
+
+.parallelogram1{
+    clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);
+}
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}

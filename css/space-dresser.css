@@ -1,0 +1,53 @@
+@import url('colors.css');
+
+.text-trapezoid1-absourd {
+  text-align: left;
+}
+
+.card-body {
+  background-color: var(--violet-color);
+}
+
+.card-text{
+  color: black !important;
+}
+
+.custom-div {
+  min-width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+  clip-path: polygon(0 0, 100% 8%, 100% 92%, 0% 100%);
+}
+
+.section {
+  background-color: var(--violet-color);
+}
+
+@media (max-width: 1024px) {
+  .vertical-direction {
+    flex-direction: column;
+  }
+
+  .text-polygons {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+
+  .text-polygons-external {
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 8rem !important;
+    padding-top: 8rem !important;
+  }
+}
+
+@media (min-width:1025px) {
+  .section {
+    padding-left: 280px !important;
+    padding-right: 280px !important;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+}

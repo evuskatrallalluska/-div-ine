@@ -1,0 +1,34 @@
+@import url('colors.css');
+
+.products1-title-background {
+  position: relative;
+  width: auto;
+  height: 100%;
+  background-image: url('../img/products1.png');
+  background-position: center -150px;
+  background-repeat: no-repeat;
+}
+
+.text-trapezoid1-absourd {
+  text-align: left;
+}
+
+.text-polygons-products1 {
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+@media (max-width:1024px) {
+  .products1-title-background {
+    position: relative;
+    width: 100%;
+    background-image: url('../img/products1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .mobile-direction {
+    flex-direction: column;
+  }
+}
